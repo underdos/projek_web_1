@@ -1,0 +1,53 @@
+var huruf = new Array("a","b","c","d",'e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z');
+var angka = new Array("0","1","2","3","4","5","6","7","8","9");
+var hrf1="",hrf2="",hrf3="",hrf4="",hrf5="",hrf6="",hrf7="";
+function random(jml){
+	var x=0;
+	x=Math.floor(Math.random()*jml);
+	return x;
+}
+function style(){
+var s=random(8);
+switch(s){
+	case 0:ss="tt";break;
+	case 1:ss="s";break;
+	case 2:ss="u";break;
+	case 3:ss="i";break;
+	case 4:ss="b";break;
+	case 5:ss="sup";break;
+	case 6:ss="sub";break;
+	default: ss="s";
+}
+return ss;
+}
+function pil(){
+var ack,pilihan=0;
+var h=random(100);
+var hrf=random(2);
+var st=style();
+pilihan=random(2);
+	if(pilihan==0){
+		ack=random(9);
+		z='<font size="'+h+'"><'+st+'>'+angka[ack]+"</"+st+"></font>";
+	}else{
+		ack=random(25);
+		if(hrf==0){
+			z='<font size="'+h+'"><'+st+'>'+huruf[ack]+"</"+st+"></font>";
+		}else{
+			z='<font size="'+h+'"><'+st+'>'+huruf[ack].toUpperCase()+"</"+st+"></font>";
+		}
+	}
+return z;
+}
+
+function set(){
+			hrf1=pil();
+			hrf2=pil();
+			hrf3=pil();
+			hrf4=pil();
+			hrf5=pil();
+			hrf6=pil();
+			hrf7=pil();
+			var ex=hrf1+' '+hrf2+' '+hrf3+' '+hrf4+' '+hrf5+' '+hrf6+' '+hrf7;
+			document.getElementById('captcha').innerHTML=ex;
+}

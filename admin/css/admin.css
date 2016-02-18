@@ -1,0 +1,121 @@
+body {
+	background-color:#DBDBDB;	
+
+}
+a {
+	text-decoration:none;
+}
+
+#container {
+	margin:auto;
+	width:900px;
+	height:auto;
+	background-color:#ffffff;	
+	padding:5px;
+	box-shadow: 0px 0px 10px #cccdaa;
+	border-radius:5px 5px 5px 5px;
+}
+
+#login {
+	width:auto;
+	height:500px;
+
+}
+
+#ico {
+	margin:auto;
+	width:300px;
+	font-family:tahoma;
+}
+
+#ico div {
+	width:400px;
+	height:30px;
+	background-image:url(../../img/nav.png);
+	color:#555555;
+	font-size:12px;
+	
+}
+
+#header {
+	background-color:#A3C2E2;
+	height:100px;
+	font-family:arial;
+}
+#header h2 {
+	margin-top:0px;
+	padding-top:30px;
+	padding-left:10px;
+	color:#eeeeee;
+	font-style:italic;
+}
+
+.tag_menu {
+	background-color:#C3C2F2;
+	height:30px;
+	font-family:tahoma;
+}	
+
+ul, li{
+	list-style-type:none;
+	padding:10px;
+	font-family:tahoma;
+
+}
+
+.sub {
+	padding:0px;
+	background-color:#A3C2E2;
+
+}
+
+.sub li {
+	border-bottom:1px dotted white;
+}
+.sub li a {
+	color:white;
+	font-size:12px;
+}
+.sub li:hover{
+	background-color:grey;
+	cursor:pointer;
+	color:white;
+}
+
+#posting {
+	font-family:tahoma;
+	font-size:12px;
+}
+
+.textbox {
+	width:300px;
+	border:1px solid blue;
+}
+
+#isi_post {
+	width:680px;
+	height:600px;
+}
+
+#tbl_data th , #tbl_data td{
+	font-family:tahoma;
+	font-size:12px;
+	color:black;
+}
+
+#tbl_data th{
+	background-color:#A3C2E2;
+}
+
+#tbl_data tr{
+	height:30px;
+	overflow:auto;
+	border:1px solid blue;
+}
+
+#tbl_data tr:hover td {
+	background-color:#aaaaaa;
+	cursor:pointer;
+	color:white;
+	border-left:1px solid black;
+}

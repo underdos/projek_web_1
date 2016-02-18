@@ -1,0 +1,152 @@
+body {
+	background-color:#DBDBDB;	
+
+}
+a, a:visited, a:hover {
+	text-decoration:none;
+}
+
+#container {
+	margin:auto;
+	width:900px;
+	height:auto;
+	background-color:#ffffff;	
+	padding:5px;
+	box-shadow: 0px 0px 10px #cccdaa;
+	border-radius:5px 5px 5px 5px;
+}
+
+#header {
+	width:880px;
+	height:150px;
+	padding:10px;
+	background-image:url(../img/header2.jpg);
+	margin:auto;
+}
+#logo {
+	float:left;
+
+}
+
+#profile {
+	float:left;
+	color:orange;
+	font-family:tahoma;
+	background-color:#000000;
+	opacity:0.5;
+}
+
+#menu {
+	width:880px;
+	height:20px;
+	padding:10px;
+	background-image:url(../img/nav.png);
+	margin:auto;
+}
+
+#content-spliter{
+	width:900px;
+	height:100%;
+	font-size:12px;
+	font-family:Tahoma;
+	color:#444444;
+	padding:10px;
+}
+
+hr {
+	border:1px solid orange;
+	box-shadow: 5px -5px 5px orange;
+}
+
+.tag_title {
+	color:#ff9944;
+}
+
+.title_news p {
+	font-weight:bolder;
+ 	color:#88aaff;
+}
+.title_news p i {
+	font-size:10px;
+	color:grey;
+}
+
+.more {
+	text-decoration:none;
+	color:#dd7711;
+	font-size:13px;
+	font-weight:bolder;
+}
+
+#footer {
+	background-color:#88aaff;
+	height:auto;
+	width:890px;
+	color:white;
+	font-size:11px;
+	font-family:Arial;
+	padding:5px;
+	border-radius:5px 5px 5px 5px;
+
+}
+
+
+.img_con {
+	height:35px;
+	width:35px;
+}
+
+.batas {
+	border:1px dotted orange;
+}
+
+#statistic table {
+	font-size:11px;
+	color:blue;
+
+}
+
+ul.top_menu {
+	margin-left:0px;
+	margin-top:0px;
+}
+
+ul.top_menu li {
+	height:10px;
+	display:inline;
+	margin-top:-15px;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:20px;
+	padding-right:20px;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#555555;
+}
+
+ul.top_menu li:hover {
+	background-color:grey;
+	height:9px;
+	cursor:pointer;
+	color:white;
+	border-radius:5px 5px 5px 5px;
+}
+
+.visit {
+	background-color:grey;
+	height:9px;
+	cursor:pointer;
+	border-radius:5px 5px 5px 5px;
+	display:inline;
+	margin-top:-15px;
+	padding-top:8px;
+	padding-bottom:8px;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#555555;
+}	
+
+#mylink {
+	color:white;
+	font-weight:bolder;
+}
